@@ -6,21 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+    <!--link css-->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-        .attribution {
-            font-size: .9rem;
-            text-align: center;
-        }
-
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-
+        
     </style>
 </head>
 
@@ -29,8 +22,8 @@
     <section class="grid-contain">
         <section id="wrapper-header">
             <header>
-                <img class=" animate__animated animate__zoomIn" src="images/logo.svg" alt="logo's fylo">
-                <nav class=" animate__animated animate__zoomIn">
+                <img data-aos="zoom-in" src="images/logo.svg" class="logo" alt="logo's fylo">
+                <nav data-aos="zoom-in">
                     <ul>
                         <li>
                             <a href="#">Features</a>
@@ -42,19 +35,19 @@
             </header>
             <!--banner-->
             <div id="banner">
-                <img  class="animate__animated animate__zoomIn animate__delay-1s" src="images/illustration-intro.png" alt="intro">
+                <img data-aos="zoom-in" data-aos-delay="50" src="images/illustration-intro.png" alt="intro">
                 <div class="sub-text-banner">
-                    <h1 class="animate__animated animate__zoomIn animate__delay-1s">All your files in one secure location, accessible anywhere.</h1>
-                    <p  class="animate__animated animate__zoomIn animate__delay-1s"> class="animate__animated animate__zoomIn animate__delay-1s"Fylo stores all your most important files in one secure location. Access them wherever
+                    <h1 data-aos="zoom-in" data-aos-delay="50">All your files in one secure location, accessible anywhere.</h1>
+                    <p data-aos="zoom-in" data-aos-delay="50">Fylo stores all your most important files in one secure location. Access them wherever
                         you need, share and collaborate with friends family, and co-workers.</p>
-                    <button class="animate__animated animate__zoomIn animate__delay-1s">
-                        <a href="#">Get Started</a>
+                    <button data-aos="zoom-in" data-aos-delay="50">
+                        <a data-aos="zoom-in" data-aos-delay="200" href="#">Get Started</a>
                     </button>
                 </div>
             </div>
         </section>
         <!--advantage-->
-        <section id="wrapper-advantage" data-aos="zoom-out">
+        <section id="wrapper-advantage" data-aos="zoom-out" data-aos-delay="300">
             <div class="advantage-card">
                 <img src="images/icon-access-anywhere.svg" alt="access anywhere">
                 <div class="sub-text-advantage">
@@ -94,25 +87,25 @@
 
 
         <!--banner #2-->
-        <section id="wrapper-banner" data-aos="fade-right">
-            <img src="images/illustration-stay-productive.png" alt="stay productive">
+        <section id="wrapper-banner">
+            <img src="images/illustration-stay-productive.png" alt="stay productive" data-aos="fade-right" data-aos-delay="50">
             <div class="sub-text-banner">
-                <h1>Stay productive, wherever you are</h1>
+                <h1 data-aos="fade-right">Stay productive, wherever you are</h1>
 
-                <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+                <p data-aos="fade-right">Never let location be an issue when accessing your files. Fylo has you covered for all of your file
                     storage needs.</p>
 
-                <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
+                <p data-aos="fade-right">Securely share files and folders with friends, family and colleagues for live collaboration. No email
                     attachments required.</p>
 
-                <p><a href="#">See how Fylo works</a></p>
+                <p data-aos="fade-right"><a href="#">See how Fylo works</a></p>
             </div>
         </section>
 
         <!--testimony-->
         <section id="wrapper-testimony">
             <div id="testimony">
-                <div class="testimony-card">
+                <div class="testimony-card" data-aos="fade-right" data-aos-delay="500">
                     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
                         become a well-oiled collaboration machine.</p>
                     <div class="user">
@@ -125,7 +118,7 @@
                 </div>
 
 
-                <div class="testimony-card">
+                <div class="testimony-card" data-aos="fade-right" data-aos-delay="300">
                     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
                         become a well-oiled collaboration machine.</p>
                     <div class="user">
@@ -138,7 +131,7 @@
                 </div>
 
 
-                <div class="testimony-card">
+                <div class="testimony-card" data-aos="fade-right">
                     <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
                         become a well-oiled collaboration machine.</p>
                     <div class="user">
@@ -154,20 +147,20 @@
 
 
         <!--footer-menu-->
-        <section id="wrapper-footer">
+        <section id="wrapper-footer" data-aos="zoom-in-right">
             <!--call-to-action-->
-            <div id="wrapper-call-to-action">
+            <div id="wrapper-call-to-action" data-aos="zoom-in-right" data-aos-delay="200">
                 <div id="call-to-action">
-                    <h2>Get early access today</h2>
+                    <h2 data-aos="zoom-in-right" data-aos-delay="800">Get early access today</h2>
 
-                    <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+                    <p data-aos="zoom-in-right" data-aos-delay="800">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
                         questions, our support team would be happy to help you.</p>
                     <!--form + button-->
                     <form id="myForm">
-                        <input id="tape" name="email1" type="email" placeholder="email@example.com">
+                        <input id="tape" name="email1" type="email" placeholder="email@example.com" data-aos="zoom-in-right" data-aos-delay="800">
                         <submit>
-                            <button>
-                                <a href="#">Get Started For Free</a>
+                            <button data-aos="zoom-in-right" data-aos-delay="800">
+                                <a data-aos="zoom-in-right" data-aos-delay="1000" href="#">Get Started For Free</a>
                             </button>
                         </submit>
                     </form>
@@ -180,8 +173,8 @@
                 <!--col #1-->
 
                 <div id="nav-footer">
-                    <img src="images/logo.svg" alt="logo's fylo">
-                    <div id="col-1">
+                    <a href=""><img data-aos="zoom-in-right" data-aos-delay="600" class="logo" src="images/logo.svg" alt="logo's fylo"></a>
+                    <div data-aos="zoom-in-right" data-aos-delay="1000" id="col-1">
                         <div id="location">
                             <img src="images/icon-location.svg" alt="location">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -190,20 +183,20 @@
                     </div>
 
                     <!--col #2-->
-                    <div id="col-2">
+                    <div data-aos="zoom-in-right" data-aos-delay="600" id="col-2">
                         <div class="items-col-2">
                             <img src="images/icon-phone.svg" alt="phone">
                             <p>+1-543-123-4567</p>
                         </div>
 
-                        <div class="items-col-2">
+                        <div data-aos="zoom-in-right" class="items-col-2">
                             <img src="images/icon-email.svg" alt="email">
                             <p>example@fylo.com</p>
                         </div>
                     </div>
 
                     <!--col #3-->
-                    <div id="col-3">
+                    <div data-aos="zoom-in-right" data-aos-delay="600" id="col-3">
                         <nav>
                             <ul>
                                 <li><a href="#">About Us</a></li>
@@ -214,7 +207,7 @@
                         </nav>
                     </div>
 
-                    <div id="col-4">
+                    <div data-aos="zoom-in-right" data-aos-delay="600" id="col-4">
                         <nav>
                             <ul>
                                 <li><a href="#">Contact Us</a></li>
@@ -224,21 +217,24 @@
                         </nav>
                     </div>
 
-                    <div id="col-6">
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="far fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="far fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </span>
-
-                        <span class="fa-stack" style="vertical-align: top;">
-                            <i class="far fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </span>
+                    <div data-aos="zoom-in-right" data-aos-delay="600" id="col-5">
+                        <a href="#"> <span class="fa-stack" style="vertical-align: top;">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="fa-stack" style="vertical-align: top;">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="fa-stack" style="vertical-align: top;">
+                                <i class="far fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -248,13 +244,11 @@
     <footer>
         <p class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-            Coded by <a href="#">Seck Mamadou Faye</a>
+            Coded by <a href="https://github.com/doums85/Fylo-dark-theme.git">Seck Mamadou Faye</a>
         </p>
     </footer>
- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
-</html>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body></html>
