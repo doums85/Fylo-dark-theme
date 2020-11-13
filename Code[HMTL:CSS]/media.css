@@ -331,7 +331,7 @@
     #nav-footer .logo {
         display: block;
         width: 55vw;
-        margin: 0 auto;
+        margin: 0 auto 2rem 0;
     }
 
     #col-1 #location {
@@ -340,6 +340,7 @@
 
     #col-1 #location img {
         width: 10vw;
+
     }
 
 
@@ -349,6 +350,7 @@
     #col-5,
     #col-6 {
         width: 95vw;
+        margin-bottom: .8rem;
     }
 
     #col-5 {
