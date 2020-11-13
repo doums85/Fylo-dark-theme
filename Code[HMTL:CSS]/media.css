@@ -1,0 +1,169 @@
+@media(min-width: 991px) and (max-width: 1260px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header li {
+        width: 20vw;
+    }
+
+    #call-to-action button {
+        width: 22vw;
+    }
+
+}
+
+@media(min-width: 375px) and (max-width: 991px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 95vw;
+        justify-content: flex-start;
+        grid-column-gap: 1rem;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    header li {
+        width: 50vw;
+        font-size: .8rem;
+        font-weight: 700;
+    }
+
+    #banner {
+        width: 95vw;
+        background: url(images/bg-curvy-mobile.svg) no-repeat;
+        background-position: bottom;
+    }
+
+    #banner img {
+        width: 95vw;
+    }
+
+    #banner h1 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        width: 95vw;
+    }
+
+    /*    advantage*/
+    #wrapper-advantage {
+        width: 95vw;
+        grid-template-columns: auto;
+        margin: 0 auto;
+    }
+
+    /*    banner bottom*/
+    #wrapper-banner {
+        grid-template-columns: auto;
+    }
+
+    #wrapper-banner img {
+        width: 95vw;
+        margin: 0 auto;
+    }
+   .sub-text-banner h1 
+   .sub-text-banner p {
+       margin-bottom: 1rem;
+    }
+    #wrapper-banner h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+/*testimony*/
+    #testimony {
+        grid-template-columns: auto;
+        grid-row-gap: 2rem;
+    }
+
+    #testimony img {
+        width: 10vw;
+
+    }
+
+    .testimony-card .user {
+        grid-column-gap: 2.5rem;
+    }
+
+    /*footer*/
+    #wrapper-footer {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 30vh) 90vh;
+    }
+
+    /*call to action*/
+    #wrapper-call-to-action {
+        width: 95vw;
+        margin: 0 auto;
+        grid-column: 1/2;
+    }
+
+    #call-to-action {
+        width: 80vw;
+    }
+
+    #call-to-action form {
+        height: 17vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #call-to-action #tape,
+    #call-to-action button {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    /*footer menu*/
+    #footer-menu {
+        grid-column: 1/2;
+        padding: 20rem 0 0 0;
+    }
+
+    #nav-footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+
+    #nav-footer .logo {
+        display: block;
+        width: 55vw;
+        margin: 0 auto;
+    }
+
+    #col-1 #location img {
+        width: 10vw;
+    }
+
+    #col-1 #col-2,
+    #col-3,
+    #col-4,
+    #col-5,
+    #col-6 {
+        width: 95vw;
+    }
+
+    #col-5 {
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    /*    tag footer*/
+    .attribution {
+        font-size: .6rem;
+    }
+
+    footer a {
+        font-size: .8rem;
+    }
+}
