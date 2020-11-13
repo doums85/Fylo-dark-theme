@@ -71,7 +71,7 @@ header li a {
 }
 
 #banner img {
-    width: 50vw;
+    width: 45vw;
 }
 
 #banner .sub-text-banner {
@@ -95,23 +95,12 @@ button {
     margin: 0 auto;
 }
 
-button:hover {
-    background-color: white;
-}
-
 button a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--White);
 }
-
-button a:hover {
-    background: -webkit-linear-gradient(#00C9FF, #92FE9D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 
 /*advantage*/
 #wrapper-advantage {
@@ -270,7 +259,6 @@ button a:hover {
     grid-row: 2/4;
     background: var(--Dark-footer);
     display: grid;
-    grid-template-columns: repeat(2, auto);
     grid-template-rows: .2fr 1fr;
     grid-column-gap: 3rem;
     padding: 15rem 3rem 0 3rem;
@@ -292,11 +280,13 @@ button a:hover {
 }
 
 #col-1 #location {
+    width: 32vw;
     display: flex;
     align-items: center;
 }
 
 #col-1 #location img {
+    width: 2vw;
     margin-right: 1rem;
 }
 
@@ -304,7 +294,7 @@ button a:hover {
 #col-2,
 #col-3,
 #col-4,
-#col-5,
+#col-5
     {
     grid-row: 2/3;
 
@@ -336,7 +326,6 @@ button a:hover {
     display: flex;
     justify-content: flex-end;
     height: 4vh;
-    width: 3vw;
     margin-right: 1rem;
     padding: .5rem;
 }
@@ -346,6 +335,7 @@ footer {
     color: var(--White);
     font-size: 1.2rem;
     font-weight: 700;
+    padding: 1rem;
 }
 
 footer a {
