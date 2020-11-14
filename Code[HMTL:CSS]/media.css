@@ -187,13 +187,13 @@
 }
 
 @media(min-width: 320px) and (max-width: 600px) {
-
-    #wrapper-header{
-        overflow: hidden;
+ 
+    body{
+        overflow-x: hidden;
     }
 
     header {
-        width: 95vw;
+        width: 85vw;
         grid-column-gap: 1rem;
         overflow: hidden;
     }
@@ -203,14 +203,14 @@
     }
 
     header li {
-        width: 50vw;
-        justify-content: flex-end;
+        width: 100vw;
+        justify-content:flex-start;
         font-size: .8rem;
         font-weight: 700;
     }
 
     header li a {
-        margin-right: 1rem;
+        margin-right: .8rem;
     }
 
     header li a:nth-child(3) {
@@ -218,14 +218,14 @@
     }
 
     #banner {
-        width: 95vw;
+        width: 85vw;
         background: url(images/bg-curvy-mobile.svg) no-repeat;
         background-position: bottom;
         overflow: hidden;
     }
 
     #banner img {
-        width: 95vw;
+        width: 85vw;
     }
 
     #banner h1 {
@@ -233,12 +233,12 @@
     }
 
     button {
-        width: 95vw;
+        width: 85vw;
     }
 
     /*    advantage*/
     #wrapper-advantage {
-        width: 95vw;
+        width: 85vw;
         grid-template-columns: auto;
         margin: 0 auto;
     }
@@ -246,17 +246,17 @@
     /*    banner bottom*/
     #wrapper-banner {
         grid-template-columns: auto;
+        grid-row-gap: 2rem;
         overflow: hidden;
     }
 
     #wrapper-banner img {
-        width: 95vw;
-        margin: 0 auto;
+        width: 85vw;
+        margin: 0 auto ;
     }
 
-    .sub-text-banner h1,
-    .sub-text-banner p {
-        margin-bottom: 1rem;
+    p {
+        font-size: .8rem;
     }
 
     #wrapper-banner h1 {
@@ -284,19 +284,19 @@
     #wrapper-footer {
         width: 100vw;
         grid-template-columns: 100vw;
-        grid-template-rows: repeat(2, 30vh) 140vh;
+        grid-template-rows: repeat(2, 30vh) 120vh;
         overflow: hidden;
     }
 
     /*call to action*/
     #wrapper-call-to-action {
-        width: 85vw;
+        width: 80vw;
         margin: 0 auto;
         grid-column: 1/2;
     }
 
     #call-to-action {
-        width: 80vw;
+        width: 70vw;
     }
 
     #call-to-action form {
